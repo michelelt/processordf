@@ -5,4 +5,4 @@ RUN pip install simplejson
 RUN pip install pika
 
 RUN git clone https://github.com/michelelt/processor
-RUN python processor/consumer.py
+CMD python processor/consumer.py
