@@ -8,3 +8,5 @@ RUN pip install --egg mysql-connector-python-rf
 
 RUN git clone https://github.com/michelelt/processor
 CMD python processor/consumer.py
+
+##
